@@ -1,4 +1,4 @@
-![logo](https://github.com/Arijitttt/Arijitttt/blob/main/images.png)
+![logo](https://github.com/Arijitttt/Arijitttt/blob/main/Modern%20Minimal%20Technology%20Background%20Banner.png)
 <h1 align="center">Hi 👋, I'm Arijit Bhattacharya</h1>
 <h3 align="center">A passionate software engeenier from India</h3>
 
