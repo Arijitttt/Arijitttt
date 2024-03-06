@@ -9,7 +9,7 @@
 
 ###
 
-<img align="left" height="200" src="https://user-images.githubusercontent.com/74038190/212747919-84b68444-0d81-46db-a338-7ec50e9dd4cd.gif"  />
+<img align="left" height="200" margin-right="20" src="https://user-images.githubusercontent.com/74038190/212747919-84b68444-0d81-46db-a338-7ec50e9dd4cd.gif"  />
 
 ###
 
@@ -72,7 +72,7 @@
 ###
 
 <div align="left">
-  <img height="185" src="https://user-images.githubusercontent.com/74038190/212284094-e50ceae2-de86-4dd6-9f9c-a3ebcb3ede9e.gif"  />
+  <img height="185", margin-left="-10" src="https://user-images.githubusercontent.com/74038190/212284094-e50ceae2-de86-4dd6-9f9c-a3ebcb3ede9e.gif"  />
 </div>
 
 ###
