@@ -25,7 +25,7 @@ def work_life_balance(task: str, mood: str = 'neutral') -> str:
     }
 
     if mood not in fun_emojis:
-        return "Invalid mood detected! Please select 'happy', 'neutral', or 'sad'. Otherwise, we'll assume you're a robot in disguise."
+        return "Invalid mood! Choose 'happy', 'neutral', or 'sad'. Otherwise, we'll assume you're a robot in disguise."
 
     return (f"Task to complete: {task} {fun_emojis[mood]}. "
             f"Advice: {professional_advice[mood]}")
