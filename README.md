@@ -7,10 +7,10 @@ def work_life_balance(task: str, mood: str = 'neutral') -> str:
     
     Args:
     - task (str): The task to execute.
-    - mood (str): Your current mood. Default is 'neutral'.
+    - mood (str): Mood is not mooding. Default is 'neutral'.
 
     Returns:
-    - str: A fun yet professional message.
+    - str: not too professional.
     """
     fun_emojis = {
         'happy': '😄',
@@ -19,19 +19,18 @@ def work_life_balance(task: str, mood: str = 'neutral') -> str:
     }
 
     professional_advice = {
-        'happy': "Great! But don't forget your responsibilities.",
-        'neutral': "Stay balanced, don't overwork or overplay.",
-        'sad': "Maybe take a short break and come back stronger."
+        'happy': "Awesome! Just remember, with great happiness comes great responsibility. So, maybe hold off on that third dance party and tackle your to-do list first.",
+        'neutral': "You're in the middle of the road, my friend. Keep it steady—don’t go off-roading into Procrastination Town or Overwork City!",
+        'sad': "Feeling down? Take a quick break, watch a funny cat video, and return with the strength of a thousand coffee cups!"
     }
 
     if mood not in fun_emojis:
-        return "Invalid mood! Please choose between 'happy', 'neutral', or 'sad'."
+        return "Invalid mood detected! Please select 'happy', 'neutral', or 'sad'. Otherwise, we'll assume you're a robot in disguise."
 
     return (f"Task to complete: {task} {fun_emojis[mood]}. "
             f"Advice: {professional_advice[mood]}")
 
-# Example usage:
-message = work_life_balance("Complete Python project", "happy")
+message = work_life_balance("Wrangle the wild Python project", "happy")
 print(message)
 ```
 
