@@ -19,9 +19,9 @@ def work_life_balance(task: str, mood: str = 'neutral') -> str:
     }
 
     professional_advice = {
-        'happy': "Awesome! Just remember, with great happiness comes great responsibility. So, maybe hold off on that third dance party and tackle your to-do list first.",
-        'neutral': "You're in the middle of the road, my friend. Keep it steady—don’t go off-roading into Procrastination Town or Overwork City!",
-        'sad': "Feeling down? Take a quick break, watch a funny cat video, and return with the strength of a thousand coffee cups!"
+        'happy': "Awesome! Just pause that third dance party and tackle your to-do list first.",
+        'neutral': "You're in the middle, my friend. Keep it steady—avoid Procrastination Town or Overwork City!",
+        'sad': "Feeling down? Take a break, watch a funny cat video, and come back strong!"
     }
 
     if mood not in fun_emojis:
